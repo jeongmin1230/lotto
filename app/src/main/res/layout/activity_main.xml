@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="「절반의 행운, 절반의 기부」"
+        android:textSize="20dp"
+        android:fontFamily="@font/swagger"
+        android:gravity="center"
+ />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="64dp"
+            android:src="@drawable/pocket" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나눔\nLotto 6/45"
+            android:textSize="24dp"
+            android:fontFamily="@font/swagger" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제 _ _ _회"
+        android:fontFamily="@font/swagger"
+        android:id="@+id/tvRound"
+        android:layout_gravity="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="발 행 일 : 연도/월/일 (요일) 시:분:초\n"
+        android:fontFamily="@font/swagger"
+        android:id="@+id/tvPublishedDate"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="추 첨 일 : 연도/월/일 (요일) TR(발권기록)\n"
+        android:fontFamily="@font/swagger"
+        android:id="@+id/lotteryDate"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="지급 기한 : 연도/월/일"
+        android:fontFamily="@font/swagger"
+        android:id="@+id/tvPaymentDeadline"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingTop="50dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_weight="1"
+        android:background="#FCE4EC" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/swagger"
+            android:id="@+id/tvNumberArray"
+            android:gravity="center"
+            android:text=""
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정 민 복 권"
+        android:fontFamily="@font/swagger"
+        android:textSize="100dp"
+        android:gravity="center" />
+
+</LinearLayout>
