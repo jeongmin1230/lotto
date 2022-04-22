@@ -20,6 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/btnCapture"
+        android:background="@color/white"
         android:layout_margin="20dp"
         android:id="@+id/rlCaptureLayout" >
 
@@ -34,6 +35,7 @@
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/swagger"
                 android:gravity="center"
+                android:textColor="@color/black"
                 android:text="「절반의 행운, 절반의 기부」"
                 android:textSize="20dp" />
 
@@ -53,6 +55,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
                     android:fontFamily="@font/swagger"
+                    android:textColor="@color/black"
                     android:text="나눔\nLotto 6/45"
                     android:textSize="25dp" />
 
@@ -63,6 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/swagger"
+                android:textColor="@color/black"
                 android:text="제 _ _ 회"
                 android:textAlignment="center"
                 android:textSize="20dp" />
@@ -72,6 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/swagger"
+                android:textColor="@color/black"
                 android:text="발 행 일 : 연도/월/일 (요일) 시 : 분 : 초\n"
                 android:textSize="20dp" />
 
@@ -80,6 +85,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/swagger"
+                android:textColor="@color/black"
                 android:text="추 첨 일 : 연도/월/일 (요일) TR(발권기록)\n"
                 android:textSize="20dp" />
 
@@ -88,6 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/swagger"
+                android:textColor="@color/black"
                 android:text="지급기한 : 연도/월/일\n"
                 android:textSize="20dp" />
 
@@ -103,6 +110,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/swagger"
+                    android:textColor="@color/black"
                     android:text=""
                     android:textSize="30dp" />
             </LinearLayout>
@@ -112,6 +120,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/swagger"
                 android:gravity="center"
+                android:textColor="@color/black"
                 android:text="정 민 복 권"
                 android:textSize="60dp" />
 
